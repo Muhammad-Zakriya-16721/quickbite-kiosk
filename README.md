@@ -17,4 +17,4 @@ A production-ready, touch-first self-service kiosk and mobile ordering applicati
 - **Deployment:** Vercel / Netlify
 
 ## 📸 Preview
-*(Tip: Drag and drop a screenshot of your app right here in the GitHub editor!)*
+<img width="2752" height="1536" alt="Gemini_Generated_Image_s2nqtos2nqtos2nq" src="https://github.com/user-attachments/assets/ac8ea3dc-6ced-473e-a9ec-1888acc8bf68" />
