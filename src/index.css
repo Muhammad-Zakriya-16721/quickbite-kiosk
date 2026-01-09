@@ -1,14 +1,32 @@
-/* Add this to your index.css */
+/* 1. REQUIRED TAILWIND DIRECTIVES (DO NOT REMOVE) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Your Custom Kiosk Styles */
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
+body {
+  height: 100%;
+  background-color: #111; /* Fallback for dark mode */
+}
+
+/* Custom Selection Color */
 ::selection {
-  background-color: #ffc700; /* Your Brand Primary */
+  background-color: #ffc700;
   color: #111;
 }
 
-/* Hide scrollbars globally for that clean kiosk look */
+/* Hide scrollbars globally */
 ::-webkit-scrollbar {
   display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
