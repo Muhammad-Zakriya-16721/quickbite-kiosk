@@ -1,0 +1,14 @@
+/* Add this to your index.css */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #ffc700; /* Your Brand Primary */
+  color: #111;
+}
+
+/* Hide scrollbars globally for that clean kiosk look */
+::-webkit-scrollbar {
+  display: none;
+}
