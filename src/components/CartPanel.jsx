@@ -1,4 +1,3 @@
-// src/components/Cart/CartPanel.jsx
 import React, { useMemo, useEffect, useState } from "react";
 import { Trash2, Plus, Minus, ShoppingBag, ArrowRight, AlertCircle } from "lucide-react";
 import { motion, AnimatePresence, useAnimation, useReducedMotion } from "framer-motion";
